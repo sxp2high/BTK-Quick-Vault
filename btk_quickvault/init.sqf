@@ -25,7 +25,7 @@ if (!(isNil "btk_quickvault_init") || !(btk_quickvault_enabled)) exitWith {};
 
 // Note
 player createDiarySubject ["BTK", "BTK"];
-player createDiaryRecord ["BTK", ["BTK Quick Vault", format["<br /><font color='%2'>Addon:</font> BTK Quick Vault<br /><font color='%2'>Version:</font> 1.0.1<br /><font color='%2'>Author:</font> sxp2high (BTK) (btk@arma3.cc)<br /><font color='%2'>Source:</font> https://github.com/sxp2high/BTK-Quick-Vault<br /><br /><font color='%2'>Description</font><br />Unlocks the Arma 3 jumping animation, so the player can get over obstacles quicker.<br /><br /><font color='%2'>Controls</font><br />Press <font color='%1'>Get Over</font> to jump.", ([(profileNamespace getVariable ["GUI_BCG_RGB_R", 0.3843]), (profileNamespace getVariable ["GUI_BCG_RGB_G", 0.7019]), (profileNamespace getVariable ["GUI_BCG_RGB_B", 0.8862]), (profileNamespace getVariable ["GUI_BCG_RGB_A", 0.7])] call BIS_fnc_colorRGBAtoHTML), "#c9cacc"]]];
+player createDiaryRecord ["BTK", ["BTK Quick Vault", format["<br />BTK Quick Vault<br /><br /><font color='%2'>Version:</font> 1.0.1<br /><font color='%2'>Author:</font> sxp2high (BTK) (btk@arma3.cc)<br /><font color='%2'>Source:</font> https://github.com/sxp2high/BTK-Quick-Vault<br /><br /><font color='%2'>Description</font><br />Unlocks the Arma 3 jumping animation, so the player can get over obstacles quicker.<br /><br /><font color='%2'>Controls</font><br />Press <font color='%1'>Get Over</font>, while running, to jump.", ([(profileNamespace getVariable ["GUI_BCG_RGB_R", 0.3843]), (profileNamespace getVariable ["GUI_BCG_RGB_G", 0.7019]), (profileNamespace getVariable ["GUI_BCG_RGB_B", 0.8862]), (profileNamespace getVariable ["GUI_BCG_RGB_A", 0.7])] call BIS_fnc_colorRGBAtoHTML), "#c9cacc"]]];
 
 
 // Create blur

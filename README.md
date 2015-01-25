@@ -6,3 +6,7 @@ BTK Quick Vault
 
 ### Description ###
 Unlocks the Arma 3 jumping animation, so the player can get over obstacles quicker.
+
+
+### Controls ###
+Press **Get Over**, while running, to jump.
