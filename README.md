@@ -3,7 +3,7 @@ Readme
 
 
 ### BTK Quick Vault ###
-Version: 1.0.1
+Version: 1.0.1  
 Author: sxp2high (BTK) (btk@arma3.cc)
 
 
