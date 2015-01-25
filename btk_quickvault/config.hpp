@@ -1,7 +1,7 @@
 /*
-	BTK Quick Vault Config
+	BTK Quick Vault config
 */
 
 
-// Set to false to disable all functionality
+// Set to FALSE to disable the addon
 btk_quickvault_enabled = true;

@@ -9,4 +9,4 @@ Unlocks the Arma 3 jumping animation, so the player can get over obstacles quick
 
 
 ### Controls ###
-Press **Get Over**, while running, to jump.
+Press **Get Over** to jump.

@@ -57,6 +57,7 @@ _unit = (_this select 0);
 
 		cutText ["", "BLACK OUT", 0.5];
 		sleep 0.5;
+
 		cutText ["", "BLACK IN", 0.5];
 		sleep 0.5;
 
@@ -84,7 +85,7 @@ _unit = (_this select 0);
 	_unit setVariable ["btk_quickvault_busy", nil, false];
 
 	// Set fatigue
-	for "_j" from 1 to 10 do { _unit setFatigue ((getFatigue _unit) - 0.012); sleep 0.05; };
+	for "_j" from 1 to 10 do { _unit setFatigue ((getFatigue _unit) - 0.01); sleep 0.05; };
 
 };
 
