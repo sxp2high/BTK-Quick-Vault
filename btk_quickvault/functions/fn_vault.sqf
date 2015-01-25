@@ -80,11 +80,11 @@ _unit = (_this select 0);
 	// Cool down
 	sleep 1;
 
-	// Set fatigue
-	for "_j" from 1 to 10 do { _unit setFatigue ((getFatigue _unit) - 0.012); sleep 0.1; };
-
 	// Unflag
 	_unit setVariable ["btk_quickvault_busy", nil, false];
+
+	// Set fatigue
+	for "_j" from 1 to 10 do { _unit setFatigue ((getFatigue _unit) - 0.012); sleep 0.05; };
 
 };
 
