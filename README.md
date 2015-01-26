@@ -5,8 +5,12 @@ BTK Quick Vault
 
 
 ### Description ###
-Unlocks the Arma 3 jumping animation, so the player can get over obstacles quicker.
+Unlocks the Arma 3 jumping animation, so the player can get over obstacles quicker.  
+The player will jump only when moving faster than 10 km/h, otherwise the default vault will be used.  
+Player can only jump with primary weapon equipped. (Engine limitation)
 
 
 ### Controls ###
-Press **Get Over** to jump.
+| Key  | Function |
+| ------------- | ----- |
+| **Get Over**  | Jump  |
