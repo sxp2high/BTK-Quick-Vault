@@ -3,7 +3,7 @@
 */
 
 
-private ["_path","_config","_keyNames","_keyIndex"];
+private ["_path","_keyNames","_keyIndex"];
 
 
 // Wait for player
