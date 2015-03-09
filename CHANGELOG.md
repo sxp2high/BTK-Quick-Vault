@@ -4,7 +4,7 @@ Changelog
 
 ### 1.0.2 ###
 **Fixed:**
-* Possible initialization error
+* Possible initialization error  
 **Changed:**
 * Adjusted fatigue usage slightly
 
